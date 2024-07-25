@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      margin-bottom: 20px;
+    }
+    body {
+      margin: 0;
+    }
+    main {
+      margin: 20px;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: grey;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+      text-align: center;
+    }
+    .navbar a:hover {
+      background-color: hsl(0, 0%, 10%);
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Website of CSE 12x Archive</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+  <h1>CSE 12x Final Archive</h1>
+  
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">CSE 121 Final Review Resources</a></li>
+      <li><a href="#">CSE 122 Final Review Resources</a></li>
+      <li><a href="#">CSE 123 Final Review Resources</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <p>This website contains many practice finals and review resources from the many CSE 12x websites over the years, gathered in one place for your convenience.</p>
+    
+    <section id="contact">
+      <h2>Contact Info</h2>
+      <p>Please contact me at yethanli@uw.edu if you believe there is something wrong or if you have other resources you would like to have added to the archive.</p>
+    </section>
+  </main>
+</body>
+</html>
